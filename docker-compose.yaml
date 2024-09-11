@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  web:  
+    image: "pruebas-fastapi:latest"
+    command: "tail -f /dev/null"
+    ports:
+      - 8001:80
+    volumes:
+      - .:/app
+  app:  
+    image: "pruebas-fastapi:latest"
+    command: "tail -f /dev/null"
+    ports:
+      - 8002:80
+    volumes:
+      - .:/app

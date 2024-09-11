@@ -1,0 +1,8 @@
+#ambiente dev
+pip
+autopep8
+
+#app
+fastapi
+pillow
+uvicorn
